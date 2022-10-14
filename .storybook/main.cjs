@@ -15,8 +15,9 @@ module.exports = {
   "features": {
     "storyStoreV7": true
   },
-  viteFinal: (config, { configType }) => {
-    
+  async viteFinal(config, { configType }) {
+    config.plugins.push(tsconfigPaths.default());
+
     if (configType === 'PRODUCTION') {
       config.base = '/ignite-lab-design-system/' //name your project save
     }
