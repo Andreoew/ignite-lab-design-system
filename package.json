@@ -1,6 +1,5 @@
 {
-  "name": "lab-ds",
-  "private": true,
+  "name": "ignite-lab-design-system",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -17,8 +16,7 @@
     "clsx": "^1.2.1",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "vite-tsconfig-paths": "^3.5.1"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
@@ -28,7 +26,6 @@
     "@storybook/addon-links": "^6.5.12",
     "@storybook/builder-vite": "^0.2.4",
     "@storybook/react": "^6.5.12",
-    "@storybook/storybook-deployer": "^2.8.12",
     "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
@@ -39,5 +36,17 @@
     "tailwindcss": "^3.1.8",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andreoew/ignite-lab-design-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andreoew/ignite-lab-design-system/issues"
+  },
+  "homepage": "https://github.com/Andreoew/ignite-lab-design-system#readme",
+  "description": ""
 }
