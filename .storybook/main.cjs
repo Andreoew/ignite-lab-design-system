@@ -1,3 +1,5 @@
+const tsconfigPaths = require('vite-tsconfig-paths');
+
 module.exports = {
   "stories": [
     "../src/**/*.stories.mdx",
