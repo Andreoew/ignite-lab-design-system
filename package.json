@@ -36,17 +36,5 @@
     "tailwindcss": "^3.1.8",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
-  },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Andreoew/ignite-lab-design-system.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Andreoew/ignite-lab-design-system/issues"
-  },
-  "homepage": "https://github.com/Andreoew/ignite-lab-design-system#readme",
-  "description": ""
+  }
 }
